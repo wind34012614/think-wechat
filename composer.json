@@ -5,7 +5,7 @@
     "keywords": ["wechat", "weixin","easywechat","thinkphp","think", "sdk"],
     "require": {
         "overtrue/wechat": "^5.0",
-        "topthink/framework": "^5.1 || ^6.0"
+        "topthink/framework": "^5.1"
     },
     "license": "MIT",
     "authors": [{
