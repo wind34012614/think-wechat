@@ -1,14 +1,25 @@
 # thinkphp-wechat
-[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fqiqizjl%2Fthink-wechat.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Fqiqizjl%2Fthink-wechat?ref=badge_shield)
 
-微信SDK For ThinkPHP 5.1 基于[overtrue/wechat](https://github.com/overtrue/wechat)
+微信SDK For ThinkPHP 基于[overtrue/wechat](https://github.com/overtrue/wechat)  
+本分支在 [naixiaoxin/think-wechat](https://github.com/qiqizjl/think-wechat) 的基础做了版本的改进
+命名空间不变,包名为 `zyan/think-wechat` 请勿同时安装
 
 ## 框架要求
+
 ThinkPHP5.1(中间件要求支持ThinkPHP5.1.6+)
+ThinkPHP6.x
 
 ## 安装
+
+请选择您对应的 `thinkphp` 版本与 `overtrue/wechat` 版本
+
 ~~~
-composer require naixiaoxin/think-wechat 
+#overtrue/wechat 4.x && tp5.1
+composer require "zyna/think-wechat:4.0" -vvv
+
+#overtrue/wechat 5.x && tp5.1
+composer require "zyna/think-wechat:5.0" -vvv
+
 ~~~
 
 ## 配置
@@ -104,7 +115,9 @@ $params['is_new']; // 是不是新的会话（第一次创建 session 时为 tru
 更多 SDK 的具体使用请参考：https://easywechat.com
 
 ## 参考项目
-- [overtrue/laravel-wechat](https://raw.githubusercontent.com/overtrue/laravel-wechat)
+- [laravel-wechat](https://raw.githubusercontent.com/overtrue/laravel-wechat)
+- [symfony-wechat](https://github.com/lilocon/WechatBundle)
+- [Yii2-wechat](https://github.com/jianyan74/yii2-easy-wechat)
 
 ## License
 
