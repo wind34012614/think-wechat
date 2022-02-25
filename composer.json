@@ -11,6 +11,9 @@
     "authors": [{
         "name": "耐小心",
         "email": "qiqizjl@qq.com"
+    },{
+        "name": "读心印",
+        "email": "aa24615@qq.com"
     }],
     "autoload": {
         "psr-4": {
