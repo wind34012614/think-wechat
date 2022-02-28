@@ -1,8 +1,10 @@
 <?php
 /**
- * @author 耐小心<i@naixiaoxin.com>
- * @copyright 2017-2018 耐小心
+ * @author 读心印 <aa24615@qq.com>
  */
 
-//加入Hook
-\think\facade\Hook::add('app_init', \Naixiaoxin\ThinkWechat\Behavior\AppInit::class);
+$path = str_replace('public','',getcwd());
+
+if(!file_exists($path.'/config/wechat.php')){
+    copy(__DIR__.'/config.php',$path.'/config/wechat.php');
+}
