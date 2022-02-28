@@ -11,4 +11,4 @@
 
 
 
-\think\facade\Event::bind(['RouteLoaded' => '\Naixiaoxin\ThinkWechat\Behavior\AppInit']);
+\think\facade\Event::bind( ['LogRecord'=>'Naixiaoxin\ThinkWechat\Behavior\AppInit']);

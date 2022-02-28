@@ -36,7 +36,7 @@ class AppInit
      *      app( $module_name, [ app_id => 'test' ])
      */
 
-    public function run()
+    public function handle()
     {
         $wechat_default = config('wechat.default') ? config('wechat.default') : [];
         foreach ($this->apps as $name => $app) {
