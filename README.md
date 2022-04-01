@@ -15,10 +15,10 @@ ThinkPHP6.x
 
 ~~~
 #overtrue/wechat 4.x && tp5.1
-composer require "zyna/think-wechat:4.0" -vvv
+composer require "zyan/think-wechat:4.0" -vvv
 
 #overtrue/wechat 5.x && tp5.1
-composer require "zyna/think-wechat:5.0" -vvv
+composer require "zyan/think-wechat:5.0" -vvv
 
 ~~~
 
