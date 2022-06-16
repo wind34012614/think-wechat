@@ -13,4 +13,4 @@
 
 // \think\facade\Event::bind( ['LogRecord'=>'Naixiaoxin\ThinkWechat\Behavior\AppInit']);
 
-bind('LogRecord','Naixiaoxin\ThinkWechat\Behavior\AppInit');
+Event::bind(['LogRecord'=>'Naixiaoxin\ThinkWechat\Behavior\AppInit']);
